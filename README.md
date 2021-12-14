@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">Recipe Page</h1>
+<h1 align="center">My Gallery Page</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -8,15 +8,15 @@
 
 <div align="center">
   <h3>
-    <a href="https://wy-chan.github.io/devchallenges_RecipePage">
+    <a href="https://wy-chan.github.io/devchallenges_MyGalleryPage">
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/wy-chan/devchallenges_RecipePage">
+    <a href="https://github.com/wy-chan/devchallenges_MyGalleryPage">
       Solution
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenges/OEKdUZ6xs0h99C38XVht">
+    <a href="https://devchallenges.io/challenges/gcbWLxG6wdennelX7b8I">
       Challenge
     </a>
   </h3>
@@ -39,9 +39,9 @@
 
 <img src="images/screenshot.png" alt="screenshot" height="800">&nbsp;&nbsp;<img src="images/screenshot_mobile.png" alt="screenshot" height="800">
 
-See demo here: https://wy-chan.github.io/devchallenges_RecipePage/
+See demo here: https://wy-chan.github.io/devchallenges_MyGalleryPage/
 
-I created a page based on the given design. This challenge helps me to learn more about checkbox and lists(ordered list/ unordered list).
+I created a page based on the given design.
 
 ### Built With
 
@@ -81,7 +81,7 @@ $ npm start
 - [Marked - a markdown parser](https://github.com/chjj/marked)
 
 - [Google Fonts](https://fonts.google.com/)
-- [Material Icons](https://google.github.io/material-design-icons/)
+
 
 ## Contact
 
