@@ -41,12 +41,12 @@
 
 See demo here: https://wy-chan.github.io/devchallenges_MyGalleryPage/
 
-I created a page based on the given design.
+I created a page based on the given design. The photos are displayed in a grid container.
 
 ### Built With
 
 - HTML
-- CSS, flexbox
+- CSS, flexbox, grid
 
 ## Features
 
