@@ -1,225 +1,129 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap');
 
 body{
 margin:0;
- min-height:100vh;
+min-height:100vh;
  
 display: flex;
 flex-direction: column;
 justify-content: space-between;
 align-items: center;
-
-color: #333333;
+  
+  text-align: center;
 }
+
 main{
-  width:67.3%;
-  max-width:969px;
-  margin-bottom:93px;
-}
-h1{
- font-family: Playfair Display;
-font-style: normal;
-font-weight: bold;
-font-size: 48px;
-line-height: 64px; 
-margin-top:52px;
-margin-bottom:0px;
-  color: black;
-}
-.description{
-  display:flex;
-  align-items: flex-start;
+  width: 66.67vw;
+  max-width: 960px;
+  margin-bottom: 134px;
 
-  margin-top:12px;
-}
-.dots6{
-  margin-top:6px;
-  margin-right: 12px;
-}
-.desc-text{
-  max-width:61%;
 
-  margin:0;
+}
+.profile{
+  width: auto;
+
+    display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+align-items:center;
+  margin-top: 80px;
+  margin-bottom: 64px;
+}
+.profile-photo{
+width: 156px;
+height: 156px;
+  background: #C4C4C4;
+border-radius: 16px;
+}
+.name{
   font-family: Montserrat;
-font-style: italic;
-font-weight: 500;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+
+color: #4E5150;
+    margin-top:16px;
+  margin-bottom: 8px;
+}
+.location{
+  font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
 font-size: 14px;
 line-height: 17px;
-  
-  color: #4F4F4F;
-}
-.cake-photo{
-max-width:100%;
-  margin-top:43px;
-  margin-bottom:48px;
-}
-.recipe-box{
-  position: relative;
-}
 
-.recipe-box-mini{
-  width: 216px;
-height: 367px;
-  background: #FFFFFF;
-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-border-radius: 12px;
-display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  row-gap: 43px;
-  
-  position: absolute;
-  right:0;
+color: #A9A9A9;
+  margin-top:0;
+  margin-bottom: 24px;
 }
-.mini-box{
+.data{
   display: flex;
-  margin-left: 20.3%;
-
-  height:33px;
+  column-gap: 24px;
 }
-.mini-text{
-  margin-left:14.03px;
+.data-box{
+  width: 100px;
+height: 67px;
+  background: #E5E5E5;
+border-radius: 12px;
 }
-.time-title, .serving-title{
+.data-number{
   font-family: Montserrat;
 font-style: normal;
-font-weight: bold;
-font-size: 10px;
-line-height: 12px;
-text-transform: uppercase;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+
+color: #4E5150;
+  margin-top:15px;
+  margin-bottom:3px;
+}
+.data-unit{
+  font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
 
 color: #BDBDBD;
-  
-  margin:0;
+    margin:0;
 }
-.time-text, .serving-text{
-  font-family: Montserrat;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 17px;
-
-  margin-top:4px;
+.gallery{
+  width: 100%;
+  height:66.67vw;
+  max-height:960px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas: "a b b"
+                       "c c d"
+                       "f e d";
+  row-gap: 3.33%;
+  column-gap:3.33%;
 }
-.material-icons{
-  width:28px;
-  height: 28px;
-  maring-top:4px;
-  color: #4F4F4F;
+.photos{
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
 }
-.serving-icon, .serving-text{
-  color: #F2994A;
+.photo1{
+  grid-area: a;
 }
-.recipe-box-details{
-  width:60.27%;
+.photo2{
+  grid-area: b;
 }
-h2{
-  font-family: "Playfair Display";
-font-style: normal;
-font-weight: bold;
-font-size: 24px;
-line-height: 32px;
-
-  margin:0;
+.photo3{
+  grid-area: c;
 }
-
-h3{
- font-family: Playfair Display;
-font-style: italic;
-font-weight: normal;
-font-size: 18px;
-line-height: 24px; 
-  margin-top:32px;
-  margin-bottom:30px;
+.photo4{
+  grid-area: d;
 }
-.ingredients>ul{
-  margin:0;
-  padding:0;
+.photo5{
+  grid-area: e;
 }
-.ingredients-check{
-
-list-style: none;
-  font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 25px;
-
-  display: flex;
-  margin:8px 0;
-
+.photo6{
+  grid-area: f;
 }
-input[type=checkbox] {
-  appearance: none;
-  
-  flex: 0 0 21px;
- width: 21px;
- height: 21px;
-  border: 1px solid #828282;
-box-sizing: border-box;
-border-radius: 4px;
-  
-  margin-right: 17px;
-}
-input[type=checkbox]:hover{
-  cursor:pointer;
-}
- input[type=checkbox]:checked {
-
- background-color:#F2994A;
- box-shadow: inset 0 0 0 3px white;
-border: 1px solid #F2994A;
- }
-.ingredients-check>p{
-  margin: 0;
-}
-section{
-  margin-bottom:28px;
-}
-
-ol{
-list-style: none;
-   counter-reset: item;
-
-  margin:0;
-  padding:0;
-  
-}
-ol>li {
-   counter-increment: item;
-   margin-bottom: 30px;
-  font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 20px;
-position: relative;
-
-  padding-left:51px;
-  
- }
-ol> li:before {
-   margin-right: 10px;
-   content: counter(item);
-   background: #F2994A;
-   border-radius: 6px;
-   color: white;
-   width: 36px;
-   height: 36px;
-  font-family: "Playfair Display";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 32px;
-  text-align: center;
-  display: inline-block;
-  color: #FFFFFF;
-  position: absolute;
-  margin-left: -51px;
-  padding:0;
- }
-
 footer{
 padding-top: 24px;
 padding-bottom: 24px;  
@@ -230,19 +134,6 @@ width: 100%;
   flex-shrink: 0;
 
 }
-.instructions >ol{
-  margin-top:28px;
-   margin-bottom:57px;
-}
-.source-text{
-  font-family: Montserrat;
-font-style: italic;
-font-weight: normal;
-font-size: 16px;
-line-height: 150%;
-  color: #BDBDBD;
-}
-
 footer> span{
 width: 287px;
 height: 17px;
@@ -264,90 +155,50 @@ em{
 }
 @media(max-width:1000px){
   main{
-    width: 94.6%;
-  }
-  h1{
-    font-size: 24px;
-line-height: 32px;
-   margin-top:32px;
-  }
-  .desc-text{
+  width: 93.6vw;
+  max-width: 100%;
+  margin-bottom: 44px;
+}
+.profile{
+  margin-top: 30px;
+  margin-bottom: 39px;
+}
+.profile-photo{
+width: 101.76px;
+height: 101.76px;
+}
+.name{
+font-size: 14px;
+line-height: 17px;
+  
+    margin-top:11.24px;
+  margin-bottom: 4px;
+}
+.location{
+font-size: 10px;
+line-height: 12px;
+  
+  margin-top:0;
+  margin-bottom: 12px;
+}
+.data{
+  display: flex;
+  column-gap: 15px;
+}
+.data-box{
+width: 78px;
+height: 52px;
+}
+.data-number{
 font-size: 12px;
 line-height: 15px;
-    max-width:85.3%;
-  }
-  .cake-photo{
-  margin-top:12px;
-  margin-bottom:24px;
-}
-  .recipe-box-mini{
-    position: relative;
-    box-shadow:none;
-    width:100%;
-    height: auto;
-    flex-wrap: wrap;
-    flex-direction: row;
-    row-gap:20.75px;
-    margin-bottom:30px;
-    
-  }
-  .mini-box{
-    margin: 0;
-
-  }
   
-  .yield-box{
-    width:100%;
-  }
-  .time-box{
-    width: 33.3%;
-  }
-  .material-icons{
-    width:13px;
-    height:13px;
-  }
-  .time-title, .serving-title{
-    font-size: 8px;
-    line-height: 10px;
-  }
-  .time-text, .serving-text{
-    font-size: 10px;
-line-height: 12px;
-  }
-  .recipe-box-details{
-    width:100%;
-  }
-  h2{
-    font-size: 18px;
-line-height: 24px;
-  }
-  h3{
-    font-size: 16px;
-line-height: 21px;
-  }
-  .ingredients-check{
-    font-size: 14px;
-line-height: 25px;
-  }
-  input[type=checkbox] {
-    width: 21px;
-height: 21px;
-    margin-right:8px;
-  }
-  ol>li {
-    font-size: 16px;
-line-height: 20px;
-  }
-  ol>li:before{
-    width: 36px;
-height: 36px;
-    border-radius: 6px;
-    font-size: 24px;
-line-height: 32px;
-  }
-  .source-text{
-    font-size: 12px;
-line-height: 150%;
-  }
+  margin-top:10px;
+  margin-bottom:1px;
 }
-
+.data-unit{
+font-size: 12px;
+line-height: 15px;
+    margin:0;
+}
+}
