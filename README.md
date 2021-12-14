@@ -64,7 +64,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/wy-chan/devchallenges_RecipePage
+$ git clone https://github.com/wy-chan/devchallenges_MyGalleryPage
 
 # Install dependencies
 $ npm install
